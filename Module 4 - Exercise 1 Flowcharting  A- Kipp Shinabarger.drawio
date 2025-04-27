@@ -1,0 +1,112 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="yTx_vx-be0SLX69eL1uu">
+    <mxGraphModel dx="580" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-1" target="gIEq8IxEI0WB7ZZO68Vi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="105" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-2" target="gIEq8IxEI0WB7ZZO68Vi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-2" value="Input area_code (3 digits)&lt;div&gt;Input phone_number (7 digits)&lt;/div&gt;&lt;div&gt;input message_count&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-3" value="base_rate = 5.00&lt;div&gt;additional_costs = 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="300" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-8" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="940" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-20" target="gIEq8IxEI0WB7ZZO68Vi-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="81" y="450" />
+              <mxPoint x="81" y="700" />
+              <mxPoint x="360" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-20" value="message_count&lt;div&gt;&amp;nbsp;&amp;lt;=&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;100 ?&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="101" y="400" width="107.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-26" target="gIEq8IxEI0WB7ZZO68Vi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-26" value="output area_code,&lt;div&gt;&amp;nbsp;&quot;Bill amount: &quot; +&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; bill&lt;/span&gt;&lt;div&gt;&lt;div&gt;&quot; bill with tax: &quot; + (bill + tax)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="250" y="810" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-29" value="bill = base_rate + additional_cost&lt;div&gt;tax = bill * 0.14&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="730" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-3" target="gIEq8IxEI0WB7ZZO68Vi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-33" target="gIEq8IxEI0WB7ZZO68Vi-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-50" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gIEq8IxEI0WB7ZZO68Vi-37">
+          <mxGeometry x="0.134" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-33" target="gIEq8IxEI0WB7ZZO68Vi-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-49" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gIEq8IxEI0WB7ZZO68Vi-39">
+          <mxGeometry x="-0.5617" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-33" value="message_count&lt;div&gt;&amp;gt; 300 ?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-20" target="gIEq8IxEI0WB7ZZO68Vi-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="450" />
+              <mxPoint x="280" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-48" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gIEq8IxEI0WB7ZZO68Vi-35">
+          <mxGeometry x="-0.2706" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-36" value="additional_cost =&lt;div&gt;(200*0.03) +&amp;nbsp;&lt;/div&gt;&lt;div&gt;((message_count -300) *0.02)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-38" value="additional_cost =&lt;div&gt;(message_count-100) * 0.03&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="540" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.525;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-29" target="gIEq8IxEI0WB7ZZO68Vi-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-74" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gIEq8IxEI0WB7ZZO68Vi-36" target="gIEq8IxEI0WB7ZZO68Vi-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="660" as="sourcePoint" />
+            <mxPoint x="400" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="660" />
+              <mxPoint x="600" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIEq8IxEI0WB7ZZO68Vi-75" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="700" as="sourcePoint" />
+            <mxPoint x="490" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
